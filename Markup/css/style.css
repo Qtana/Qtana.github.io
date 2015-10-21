@@ -5,17 +5,18 @@ body {
 
 .main{
 	width: 412px;
-	border: solid black;
-	border-width: 1px;
-	border-color: #AAAAAA;
+	border: 1px solid #AAAAAA;; 
 	background-color: #FFFFFF;
 	margin: auto;
-	padding-top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 30px;
+	padding: 30px 50px;
 }
 
 .top{
 	text-align: center;
+}
+.block{
+	border-bottom: 1px solid #AAAAAA;
+}
+.internal{
+	padding-bottom: 10px;
 }
