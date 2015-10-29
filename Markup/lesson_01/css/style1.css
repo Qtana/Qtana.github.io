@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	background-color: #EEEEEE;
+}
+
+.main{
+	width: 412px;
+	border: 1px solid #AAAAAA;; 
+	background-color: #FFFFFF;
+	margin: auto;
+	padding: 30px 50px;
+}
+
+.top{
+	text-align: center;
+}
+.block{
+	border-bottom: 1px solid #AAAAAA;
+}
+.internal{
+	padding-bottom: 10px;
+}

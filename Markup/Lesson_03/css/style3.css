@@ -1,0 +1,142 @@
+body {
+	background-color: #f9f9f9;
+}
+
+.all_page {
+	width: 968px;
+	height: 100%;
+	padding: 50px 46px 60px;
+	border-right: 1px solid #dbdbdb;
+	border-left: 1px solid #dbdbdb;
+	margin: auto;
+	background-color: #FFFFFF;
+}
+
+.title {
+	font-size: 36px;
+	padding-bottom: 40px;
+}
+
+/* Top menu */
+
+.navigation {
+	width: 100%;
+	display: inline-block;
+	background-color: #5c5c5c;
+    margin-bottom: 40px;
+}
+
+.navigation li {
+	display: inline;
+    line-height: 40px;
+    height: 40px;
+}
+
+.top_menu_button {
+	width: 144px;
+	float: left;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.top_menu_button:hover {
+	background-color: #464646;
+	
+	width: 142px;
+	
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+/* Left menu */
+
+.left_container {
+	width: 240px;
+	float: left;
+}
+
+.left_container > ul {
+	width: 240px;
+    margin: 0;
+    padding: 0;
+}
+
+.left_container > ul > li {
+	width: 100%;
+    line-height: 40px;
+    height: 40px;
+}
+
+.left_menu_button {
+	width: 240px;
+	height: 40px;
+	float: left;
+	vertical-align: middle;
+	color: #656363;
+	text-decoration: none;
+	border-width: 1px solid #c8c8c8;
+	padding-left: 23px;
+}
+
+.left_menu_button:hover {
+	background-color: #f9f9f9;
+	border-width: 1px;
+	color: #000000;
+	width: 228px;
+	padding-left: 35px;
+}
+
+/* Main container */
+
+.main {
+	width: 100%;
+	display: inline-block;
+}
+
+.content {
+	width: 685px;
+	float: right;
+}
+
+.content p {
+	padding: 0 25px;
+}
+
+.main_image {
+	border: 1px solid #c8c8c8;
+	margin-bottom: 40px;
+}
+
+/* Footer */
+
+.footer {
+	margin-top: 60px;
+	width: 100%;
+	display: inline-block;
+	background-color: #cccccc;
+    margin-bottom: 60px;
+}
+
+.footer li {
+	display: inline;
+    line-height: 40px;
+}
+
+.bottom_menu_button {
+	color: #656363;
+	width: 144px;
+	float: left;
+	text-decoration: none;
+	padding-left: 25px;
+}
+
+.bottom_menu_button:hover {
+	text-decoration: underline;
+}
+
+.footer .last {
+	float: right;
+	font-size: 12px;
+	padding-left: 25px;
+}
