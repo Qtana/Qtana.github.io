@@ -1,0 +1,178 @@
+.main {
+	width: 1000px;
+	margin: auto;
+	border: 1px solid black;
+	background: white;
+	position: relative;
+}
+
+.header_left {	
+}
+
+.header_right {
+	float: right;
+	width: 340px;
+}
+
+.flags {
+	clear: both;
+}
+
+.flags>li {
+	display: block;
+	position: relative;
+}
+
+.flags>li>a {
+	display: block;
+	float: left;
+}
+
+.flag {
+	color: #71aec1;
+}
+
+.flag>ul>li {
+	text-align: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.contacts {
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	padding-right: 20px;
+	color: #71aec1;
+}
+
+.moto {
+	position: relative;
+	left: -200px;
+	top: -30px;
+	color: #71aec1;
+}
+
+.photo {
+	display: block;
+}
+
+/* Menu */
+
+.menu {
+	float: left;
+	width: 100%;
+    background-color: #343434;
+    height: 30px;
+}
+
+.menu li {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	display: block;
+}
+
+.menu li a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	color: white;
+	width: 130px;
+	line-height: 30px;
+}
+
+.menu>li>a {
+	text-align: center;
+	padding: 0;
+}
+
+
+.menu li a:hover {
+	color: #ffffff;
+}
+
+.menu li:hover .submenu {
+	left: 0;
+	opacity: 1;
+}
+
+.submenu {
+	list-style: none;
+	position: absolute;
+	left: -9999px;
+	top: 30px;
+	opacity: 0;
+}
+
+.submenu li {
+	float: none;
+}
+
+.submenu a {
+	display: block;
+	background: #343434;
+	opacity: 1;
+	text-align: left;
+	padding-left: 15px;
+}
+
+.point {
+	position: relative;
+	top: -3px;
+}
+
+/* containers */
+
+.right_container{
+	float: right;
+	width: 210px;
+	height: 545px;
+	border: 1px solid #cccccc;
+	background-color: #edeef0;
+	padding: 10px;
+}
+
+.left_container{
+	width: 210px;
+	height: 545px;
+	border: 1px solid #cccccc;
+	background-color: #edeef0;
+	padding: 10px;
+	margin-top: 30px;
+	
+}
+.information{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.background1 {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+	background: #128aa7;
+}
+
+.background2 {
+	position: absolute;
+	top: 30px;
+	width: 100%;
+	height: 124px;
+	background: -webkit-linear-gradient(#11cde1, white); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#11cde1, white); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#11cde1, white); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#11cde1, white); /* Standard syntax */
+}
+
+.background3 {
+	position: absolute;
+	top: 154px;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(#40c6d3, #0c739f); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#40c6d3, #0c739f); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#40c6d3, #0c739f); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#40c6d3, #0c739f); /* Standard syntax */
+}
