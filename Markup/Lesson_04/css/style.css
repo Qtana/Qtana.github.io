@@ -112,6 +112,7 @@
 	width: 100%;
     background-color: #343434;
     height: 30px;
+    padding-left: 45px
 }
 
 .menu li {
@@ -126,13 +127,14 @@
 	display: block;
 	float: left;
 	color: white;
-	width: 130px;
+	width: 110px;
 	line-height: 30px;
 }
 
 .menu>li>a {
-	text-align: center;
+	text-align: left;
 	padding: 0;
+	padding-left: 15px;
 }
 
 
