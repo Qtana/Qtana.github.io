@@ -1,0 +1,45 @@
+
+.facebook {
+	margin: 35px 140px;
+	height: 40px;
+	width: 280px;
+	background: -webkit-linear-gradient(#336699, #333366);
+    background: -o-linear-gradient(#336699, #333366);
+	background: -moz-linear-gradient(#336699, #333366);
+	background: linear-gradient(#336699, #333366);
+	
+}
+.form_body {
+
+}
+.form_body li {
+	display: inline-block;
+}
+.form_body li a{
+}
+
+.form_body .f {
+	padding-left: 18px;
+	padding-right: 15px;
+	line-height: 35px;
+    border-right: 1px solid #336699;
+
+}
+.form_body .f a {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}
+.form_body .log_in {
+	padding-left: 32px; 
+}
+.form_body .log_in a {
+	color: white;
+	text-decoration: none;
+}
+.log_in:after {
+    position: absolute;
+    content: url('../images/arrow.png');
+    margin-left: 165px;
+    margin-top: -15px;
+}
