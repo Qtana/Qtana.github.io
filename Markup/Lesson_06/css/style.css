@@ -1,45 +1,478 @@
-
-.facebook {
-	margin: 35px 140px;
-	height: 40px;
-	width: 280px;
-	background: -webkit-linear-gradient(#336699, #333366);
-    background: -o-linear-gradient(#336699, #333366);
-	background: -moz-linear-gradient(#336699, #333366);
-	background: linear-gradient(#336699, #333366);
-	
+.main {
+	margin: auto;
+	padding: 20px 50px;
+	width: 910px;
+	background: white;
 }
-.form_body {
+header {
+	display: block;
+	height: 25px;
+	line-height: 27px;
+}
+
+.img_phone {
+	position: relative;
+	top: 3px;
+}
+
+.phones {
+	color: #666666;
+	float: left;
+	width: 300px;
+	font-size: 19px;
+}
+.person{
+	position: relative;
+	top: 5px;
+	left: 2px;
+}
+
+.login, .password{
+	width: 108px;
+	height: 11px;
+	padding: 2px;
+	margin-left: 2px;
 
 }
-.form_body li {
+.authorization {
+	width: 495px;
+	float: left;
+	background: -webkit-linear-gradient(#369, #036); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#369, #036); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#369, #036); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#369, #036); /* Standard syntax */
+    border-radius: 5px;
+}
+.enter{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.forgot_password{
+	text-decoration: underline;
+	color: #ccc;
+	margin-left: 20px;
+	font-size: 12px;
+s
+}
+
+.icons {
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 30px;
+	height: 20px;
+	width: 77px;
+	text-align: center;
+	line-height: 20px;
+	margin-left: 15px;
+}
+.icons a {
+	padding: 0 2px;
+}
+
+.main_picture {
+	clear:both;
+}
+
+/*Navigation*/
+
+nav {
+	height: 35px;
+	width: 100%;
+	border-radius: 5px;
+	background: -webkit-linear-gradient(#333, #000); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#333, #000); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#333, #000); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#333, #000); /* Standard syntax */
+	margin-top: 5px;
+	line-height: 35px;
+}
+
+nav li{
+	display: inline-block;
+	color: #999999;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #999999;
+	padding: 5px 20px;
+}
+
+nav a:hover {
+	background: -webkit-linear-gradient(#369, #036); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#369, #036); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#369, #036); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#369, #036); /* Standard syntax */
+    border-radius: 30px;
+}
+
+.trolley {
+	position: relative;
+    top: 3px;
+}
+
+.num_goods {
+	color: #069;
+	padding-left: 3px;
+}
+
+.total_amount {
+	padding-left: 15px;
+	color: #069;
+}
+
+nav li span{
+	padding-right:15px;
+}
+
+/* Options */
+
+.options {
+	width: 100%;
+	display: inline-block;
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.options_header {
+	font-weight: bold;
+}
+
+.search {
+	text-align: right;
+	display: inline-block;
+    width: 100%;
+    font-size: medium;
+    color: #154467;
+}
+
+.option_group {
+	border-radius: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	border: 1px solid #b0b0b0;
+	float: left;
+	display: inline-block;
+	height: 135px;
+	box-shadow: 3px 3px 5px 0px rgba(153,153,153,1);
+}
+
+/* Search options */
+
+.search_cars>span {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+
+.disc_car {
+	width: 200px;
+	float: left;
+	font-size: small;
+}
+
+.disc_car span {
+	position: relative;
+	top: -12px;
+	left: 10px;
+}
+
+.disc_car dt {
+	float: left;
+	width: 80px;
+}
+
+.tire_car {
+	width: 185px;
+	float: left;
+	font-size: small;
+}
+
+.tire_car span {
+	position: relative;
+	top: -12px;
+	left: 150px;
+}
+
+.tire_car dt {
+	float: left;
+	width: 80px;
+}
+
+.long_input {
+	width: 100px;
+}
+
+.short_input {
+	width: 56px;
+}
+
+/* Search tires options */
+
+.search_tires {
+	width: 150px;
+	margin-left: 15px;
+	margin-right: 10px;
+}
+
+.tire_options {
+	padding-bottom: 5px;
+}
+
+.tire_options dt {
+	width: 40px;
+	font-size: small;
+	float: left;
+}
+
+.tire_type {
 	display: inline-block;
 }
-.form_body li a{
+
+.tire_type label {
+	display: block;
 }
 
-.form_body .f {
-	padding-left: 18px;
-	padding-right: 15px;
-	line-height: 35px;
-    border-right: 1px solid #336699;
+/* Search discs options */
 
+.search_discs {
+	width: 250px;
 }
-.form_body .f a {
+
+.dd_middle {
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.discs_options {
+	display: inline-block;
+	border-radius: 20px;
+	float: left;
+	width: 150px;
+}
+
+.discs_options dt {
+	float: left;
+	font-size: small;
+	width: 85px;
+}
+
+.discs_options2 {
+    display: inline-block;
+	font-size: small;
+	float: left;
+	width: 90px;
+}
+
+/* Container */
+
+.container {
+	width: 180px;
+	float: left;
+}
+
+.container_header {
+	width: 182px;
+	height: 25px;
+	border: 1px solid #699;
+	border-radius: 30px;
+	font-size: 75%;
+	color: #036;
+	margin-bottom: 13px;
+	padding-left: 1px;
+}
+
+.container_header span {
+	line-height: 27px;
+}
+
+.container_header > span::before {
+	padding-right: 5px;
+	vertical-align: text-top;
+	content: url(../images/page.png);
+}
+
+.container_form {
+	width: 150px;
+	height: 30px;
+	border: 1px solid #699;
+	border-radius: 30px;
+}
+
+.container_form span{
+	line-height: 30px;
+	position: relative;
+	top: 1px;
+	color: #036;
+}
+
+.container_form > span::before{
+	padding-left: 4px;
+	padding-right: 3px;
+	vertical-align: text-top;
+	content: url(../images/circle.png);
+}
+
+/* Left container */
+
+.left_container_list {
+	padding-left: 40px;
+} 
+
+.left_container_list li {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	list-style-image: url(../images/disc.png);
+}
+
+.left_container_list li a {
+	text-decoration: none;
+	color: #366;
+}
+
+.left_container_list li:hover {
+	text-decoration: underline;
+	color: #036;
+	font-style: italic;
+	padding-left: 5px ;
+	font-weight: 900;
+	list-style-image: url(../images/disc_active.png);
+}
+
+/* Right container */
+
+.brands {
+	padding-left: 10px;
+	color: #366
+}
+
+.brands li {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.brands li label {
+	padding-left: 10px;
+}
+
+.choose {
+	width: 80px;
+	height: 25px;
 	color: white;
-	font-size: 25px;
+	background: -webkit-linear-gradient(#369, #036); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#369, #036); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#369, #036); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#369, #036); /* Standard syntax */
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+/* Tires table */
+.tires_table {
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+	width: 525px;
+	height: 627px;
+	background: -webkit-linear-gradient(#e5e7e8, #93a7b0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#e5e7e8, #93a7b0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#e5e7e8, #93a7b0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#e5e7e8, #93a7b0); /* Standard syntax */
+    border-radius: 5px;
+    border-spacing: 117px 5px;
+}
+
+.tires_table td {
+	padding: 10px;
+}
+
+.tires_table a {
 	text-decoration: none;
 }
-.form_body .log_in {
-	padding-left: 32px; 
+
+.tire_brand {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #369;
+	font-size: 110%;
 }
-.form_body .log_in a {
-	color: white;
+
+.tire_name {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-size: 95%;
+}
+
+.tire_image {
+	display: block;
+	margin: auto;
+	width: 137px;
+	height: 127px;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #b0b9bc;
+}
+
+.tire_image img {
+	display: block;
+	margin: auto;
+}
+
+.tire_price {
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #036;
+	font-style: italic;
+	font-weight: 900;
+	margin-top: 5px;
+}
+
+/* bottom adds */
+.adds {
+	height: 90px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	line-height: 90px;
+}
+.adds li{
+display: inline-block;
+padding: 0 5px;
+}
+
+/* Footer */
+
+
+footer{
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	background-color: #213a4d;
+	text-align: center;
+}
+footer li {
+	display: inline-block;
+	padding: 15px 12px;
+	color: #ccc;
+}
+footer li a{
+	color: #ccc;
 	text-decoration: none;
 }
-.log_in:after {
-    position: absolute;
-    content: url('../images/arrow.png');
-    margin-left: 165px;
-    margin-top: -15px;
+
+footer span {
+	color: #604245;
+	font-size: 15px;
+}
+footer li a:hover{
+color: #4792af;
 }
