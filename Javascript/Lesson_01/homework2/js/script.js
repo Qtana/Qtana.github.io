@@ -1,5 +1,5 @@
 var names = [];
-for (var i=0; i<3; i++) {
+for (var i=0; i<5; i++) {
 	names[i] = prompt ('Введіть ім’я користувача');
 }
 console.log(names);
