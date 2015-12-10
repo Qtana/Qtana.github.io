@@ -1,0 +1,85 @@
+.wrapper {
+	width: 100%;
+	padding-top: 100px;
+}
+
+/* Tableau */
+
+.tableau {
+	width: 90%;
+	height: 300px;
+	border: 10px solid black;
+	background-color: #e1e3ff;
+	margin: auto;
+	border-radius: 70px;
+}
+
+.counter {
+	width: 70%;
+	margin: auto;
+	display: block;
+}
+
+.big_counter_label {
+	width: 100%;
+	margin: auto;
+	display: block;
+	font-size: 250px;
+	font-weight: bold;
+}
+
+.small_counter_label {
+    font-size: 50px;
+    float: right;
+    padding-right: 35px;
+    font-weight: bold;
+}
+
+/* Buttons */
+
+.buttons {
+	width: 90%;
+	padding-top: 100px;
+	margin: auto;
+}
+
+.button {
+	width: 30%;
+	height: 100px;
+	border: 10px solid black;
+	border-radius: 70px;
+	display: inline-block;
+}
+
+.main {
+	background-color: #14a714;
+}
+
+.main:hover {
+	background-color: #1bd51a;
+}
+
+.clear {
+	background-color: #a41717;
+	float: right;
+}
+
+.clear:hover {
+	background-color: #d81f1f;
+}
+
+.pause {
+	background-color: #116daa;
+}
+
+.pause:hover {
+	background-color: #2f9fea;
+}
+
+.button_label {
+	font-size: 100px;
+	width: 225px;
+	margin: auto;
+	display: block;
+	font-weight: bold;
+}
