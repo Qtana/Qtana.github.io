@@ -1,0 +1,14 @@
+.tooltip {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #aaaaaa;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    line-height: 30px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    position: relative;
+    display: none;
+    left: 10px;
+}

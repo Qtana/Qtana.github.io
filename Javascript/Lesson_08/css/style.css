@@ -1,0 +1,14 @@
+.main {
+    margin: 0 auto;
+    width: 800px;
+    padding-top: 100px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+li {
+    line-height: 45px;
+}

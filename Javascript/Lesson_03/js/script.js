@@ -2,63 +2,63 @@ var formGenerator = {
     createFormHeader: function (title) {
         var h2Element = document.createElement("h2");
         var textNode = document.createTextNode(title);
-        
+
         h2Element.appendChild(textNode);
         h2Element.className = "form_header";
 
-		return h2Element;
+        return h2Element;
     },
 
-    createAnswerOption: function(answer) {
-    	var liElement = document.createElement("li");
-    	var inputElement = document.createElement("input");
-    	inputElement.type = "checkbox";
-    	var textNode = document.createTextNode(answer);
+    createAnswerOption: function (answer) {
+        var liElement = document.createElement("li");
+        var inputElement = document.createElement("input");
+        inputElement.type = "checkbox";
+        var textNode = document.createTextNode(answer);
 
-    	liElement.appendChild(inputElement);
-    	liElement.appendChild(textNode);
-    	liElement.className = "answer";
+        liElement.appendChild(inputElement);
+        liElement.appendChild(textNode);
+        liElement.className = "answer";
 
-    	return liElement;
+        return liElement;
     },
 
-    createQuestion: function(question, answers) {
-    	var liElement = document.createElement("li");
-    	var textNode = document.createTextNode(question);
+    createQuestion: function (question, answers) {
+        var liElement = document.createElement("li");
+        var textNode = document.createTextNode(question);
 
-    	liElement.appendChild(textNode);
+        liElement.appendChild(textNode);
 
-    	var ulElement = document.createElement("ul");
+        var ulElement = document.createElement("ul");
 
-    	liElement.appendChild(ulElement);
+        liElement.appendChild(ulElement);
 
-    	for(var i = 0; i < answers.length; i++) {
-    		ulElement.appendChild(answers[i]);
-    	}
+        for (var i = 0; i < answers.length; i++) {
+            ulElement.appendChild(answers[i]);
+        }
 
-    	return liElement;
+        return liElement;
     },
 
-    createForm: function(questions, submitButtonText) {
-    	var formElement = document.createElement("form");
-    	var olElement = document.createElement("ol");
+    createForm: function (questions, submitButtonText) {
+        var formElement = document.createElement("form");
+        var olElement = document.createElement("ol");
 
-    	formElement.appendChild(olElement);
-    	formElement.className = "main_form";
+        formElement.appendChild(olElement);
+        formElement.className = "main_form";
 
-    	for(var i = 0; i < questions.length; i++) {
-    		olElement.appendChild(questions[i]);
-    	}
+        for (var i = 0; i < questions.length; i++) {
+            olElement.appendChild(questions[i]);
+        }
 
-    	var buttonElement = document.createElement("input");
-    	
-    	buttonElement.value = submitButtonText;
-    	buttonElement.type = "submit";
-    	buttonElement.className = "btn btn-primary submit";
+        var buttonElement = document.createElement("input");
 
-    	formElement.appendChild(buttonElement);
+        buttonElement.value = submitButtonText;
+        buttonElement.type = "submit";
+        buttonElement.className = "btn btn-primary submit";
 
-    	return formElement;
+        formElement.appendChild(buttonElement);
+
+        return formElement;
     }
 }
 
@@ -88,10 +88,10 @@ var question3 = formGenerator.createQuestion("Питання №3", answers3);
 
 var questions = [question1, question2, question3];
 
-header = formGenerator.createFormHeader("Тест по програмуванню");
+var header = formGenerator.createFormHeader("Тест по програмуванню");
 
 document.body.appendChild(header);
 
-form = formGenerator.createForm(questions, "Перевірити мої результати");
+var form = formGenerator.createForm(questions, "Перевірити мої результати");
 
 document.body.appendChild(form);
