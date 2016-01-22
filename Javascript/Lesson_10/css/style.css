@@ -80,13 +80,15 @@ have a fixed width and height (but it's not required).
 .controls {
 	display: inline-block;
 	width: 100%;
+	margin-bottom: 20px;
 }
 
 .checkboxes {
 	display: inline-block;
+	float: right;
 }
 
-.niceCheck {
+.nice-checkbox {
 	width: 17px;
 	height: 17px;
 	display: inline-block;
@@ -94,6 +96,38 @@ have a fixed width and height (but it's not required).
 	background: url(../img/checkbox.png);
 }
 
-.niceCheck input {
+.nice-checkbox input {
+	display: none;
+}
+
+/* Menu */
+
+.nice-menu {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	background-color: rgb(255,100,100);
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+.nice-menu>li {
+	float: left;
+	width: 100px;
+	line-height: 30px;
+}
+
+.nice-menu li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+}
+
+.nice-menu li a:hover {
+	color: #000000;
+}
+
+.nice-submenu {
+	position: absolute;
 	display: none;
 }

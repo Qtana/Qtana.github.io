@@ -11,13 +11,3 @@ function changeCheck(el) {
 
     return true;
 }
-
-function changeCheckStart(el) {
-    var input = el.find("input").eq(0);
-
-    if (input.attr("checked")) {
-        el.css("background-position", "0 -17px");
-    }
-
-    return true;
-}

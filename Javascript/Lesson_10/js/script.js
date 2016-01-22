@@ -40,10 +40,7 @@ $(function () {
     $("#country_id").selectbox();
 
     /* For checkbox */
-    $('.niceCheck').mousedown(function () {
+    $('.nice-checkbox').mousedown(function () {
         changeCheck(jQuery(this));
-    });
-    $('.niceCheck').each(function () {
-        changeCheckStart(jQuery(this));
     });
 });
