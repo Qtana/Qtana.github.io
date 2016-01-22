@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson_10</title>
+    <link rel="stylesheet" href="css/reset_tools.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/jquery.selectbox.css"/>
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+    <script type="text/javascript" src="js/jquery.checkbox.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="controls">
+            <!-- Dropdown -->
+            <div class="dropdown_wrapper">
+                <select name="country_id" id="country_id" tabindex="1">
+                    <option value="">-- Select --</option>
+                    <optgroup label="Vegetables">
+                        <option>Cabbage</option>
+                        <option>Celery</option>
+                        <option>Corn</option>
+                        <option>Spinach</option>
+                        <option>Brussels sprout</option>
+                        <option>Beet</option>
+                    </optgroup>
+                    <optgroup label="Fruits">
+                        <option>Apple</option>
+                        <option>Pear</option>
+                        <option>Plum</option>
+                        <option>Water melon</option>
+                        <option>Grapes</option>
+                        <option>Orange</option>
+                        <option>Grapefruit</option>
+                        <option>Banana</option>
+                    </optgroup>
+                </select>
+            </div>
+            <!-- Checkboxes -->        
+            <div class="checkboxes">
+                <label>Checkbox 1: <span class="niceCheck"><input id="checkbox1" type="checkbox"/></span></label>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="jcarousel">
+            <ul>
+                <li><img src="img/yoga1.jpg" width="800" alt=""></li>
+                <li><img src="img/yoga2.jpg" width="800" alt=""></li>
+                <li><img src="img/yoga3.jpg" width="800" alt=""></li>
+            </ul>
+        </div>
+
+        <a href="#" class="jcarousel-control-prev">&lsaquo; Previous</a>
+        <a href="#" class="jcarousel-control-next">Next &rsaquo;</a>
+    </div>
+</body>
+</html>
